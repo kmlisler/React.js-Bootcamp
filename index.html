@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
     <title>Bootcamp Calculator</title>
-
     
 </head>
 
@@ -54,22 +54,7 @@
 
     </table>
 
-    <script>
-        function print(val) {
-            document.getElementById("result").innerHTML += val;
-        }
 
-        function getResult() {
-            let transaction = document.getElementById("result").innerHTML;
-            // hesaplama işlemi için eval fonksiyonu kullanıldı.
-            document.getElementById("result").innerHTML = eval(transaction);
-
-        }
-
-        function deleteAll() {
-            document.getElementById("result").innerHTML = "";
-        }
-    </script>
 </body>
 
 </html>
