@@ -1,0 +1,16 @@
+th {
+    /* for table elements */
+    border: 10px solid black;
+    border-radius: 15px;
+    border-collapse: collapse;
+
+}
+
+input[type="button"],
+.title,
+#result {
+    /* for input buttons*/
+    font-size: 100px;
+    width: 100%;
+    background-color: #fbf700
+}
