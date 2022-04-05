@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku UI </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="main-box">
+        <!-- contains 3 out-row , one under the other (display config is not necessary) -->
+        <div class="out-row">
+            <!-- 1 row that contains 3 inner boxes side by side ( that means display : flex)   -->
+            <div class="inner-box remove-right remove-bottom">
+                <!-- contains 3 inner-row, one under the other ( just border config )-->
+
+                <div class="inner-row">
+                    <div class="cell remove-right remove-bottom">1</div>
+                    <div class="cell remove-right remove-bottom">3</div>
+                    <div class="cell remove-bottom">7</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right remove-bottom">3</div>
+                    <div class="cell remove-right remove-bottom">9</div>
+                    <div class="cell remove-bottom">2</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right ">2</div>
+                    <div class="cell remove-right ">8</div>
+                    <div class="cell ">7</div>
+                </div>
+
+            </div>
+
+            <div class="inner-box remove-right remove-bottom">
+                <!-- contains 3 inner-row, one under the other ( just border config )-->
+
+                <div class="inner-row remove-right">
+                    <div class="cell remove-right remove-bottom">1</div>
+                    <div class="cell remove-right remove-bottom">3</div>
+                    <div class="cell remove-bottom">7</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right remove-bottom">3</div>
+                    <div class="cell remove-right remove-bottom">9</div>
+                    <div class="cell remove-bottom">2</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right ">2</div>
+                    <div class="cell remove-right ">8</div>
+                    <div class="cell ">7</div>
+                </div>
+
+            </div>
+            <div class="inner-box remove-bottom">
+                <!-- contains 3 inner-row, one under the other ( just border config )-->
+
+                <div class="inner-row remove-right">
+                    <div class="cell remove-right remove-bottom">1</div>
+                    <div class="cell remove-right remove-bottom">3</div>
+                    <div class="cell remove-bottom">7</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right remove-bottom">3</div>
+                    <div class="cell remove-right remove-bottom">9</div>
+                    <div class="cell remove-bottom">2</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right ">2</div>
+                    <div class="cell remove-right ">8</div>
+                    <div class="cell ">7</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="out-row">
+            <!-- 1 row that contains 3 inner boxes side by side ( that means display : flex)   -->
+            <div class="inner-box remove-right remove-bottom" >
+                <!-- contains 3 inner-row, one under the other ( just border config )-->
+
+                <div class="inner-row remove-right">
+                    <div class="cell remove-right remove-bottom">9</div>
+                    <div class="cell remove-right remove-bottom">3</div>
+                    <div class="cell remove-bottom">5</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right remove-bottom">1</div>
+                    <div class="cell remove-right remove-bottom">2</div>
+                    <div class="cell remove-bottom">7</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right ">5</div>
+                    <div class="cell remove-right ">7</div>
+                    <div class="cell ">1</div>
+                </div>
+
+            </div>
+
+            <div class="inner-box remove-bottom remove-right">
+                <!-- contains 3 inner-row, one under the other ( just border config )-->
+
+                <div class="inner-row remove-right">
+                    <div class="cell remove-right remove-bottom">1</div>
+                    <div class="cell remove-right remove-bottom">2</div>
+                    <div class="cell remove-bottom">7</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right remove-bottom">3</div>
+                    <div class="cell remove-right remove-bottom">5</div>
+                    <div class="cell remove-bottom">2</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right ">2</div>
+                    <div class="cell remove-right ">8</div>
+                    <div class="cell ">7</div>
+                </div>
+
+            </div>
+            <div class="inner-box remove-bottom">
+                <!-- contains 3 inner-row, one under the other ( just border config )-->
+
+                <div class="inner-row remove-right">
+                    <div class="cell remove-right remove-bottom">5</div>
+                    <div class="cell remove-right remove-bottom">1</div>
+                    <div class="cell remove-bottom">3</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right remove-bottom">3</div>
+                    <div class="cell remove-right remove-bottom">6</div>
+                    <div class="cell remove-bottom">5</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right ">5</div>
+                    <div class="cell remove-right ">2</div>
+                    <div class="cell ">7</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="out-row">
+            <!-- 1 row that contains 3 inner boxes side by side ( that means display : flex)   -->
+            <div class="inner-box remove-right">
+                <!-- contains 3 inner-row, one under the other ( just border config )-->
+
+                <div class="inner-row remove-right">
+                    <div class="cell remove-right remove-bottom">2</div>
+                    <div class="cell remove-right remove-bottom">6</div>
+                    <div class="cell remove-bottom">7</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right remove-bottom">3</div>
+                    <div class="cell remove-right remove-bottom">4</div>
+                    <div class="cell remove-bottom">9</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right ">1</div>
+                    <div class="cell remove-right ">5</div>
+                    <div class="cell ">9</div>
+                </div>
+
+            </div>
+
+            <div class="inner-box remove-right">
+                <!-- contains 3 inner-row, one under the other ( just border config )-->
+
+                <div class="inner-row remove-right">
+                    <div class="cell remove-right remove-bottom">2</div>
+                    <div class="cell remove-right remove-bottom">3</div>
+                    <div class="cell remove-bottom">6</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right remove-bottom">7</div>
+                    <div class="cell remove-right remove-bottom">9</div>
+                    <div class="cell remove-bottom">6</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right ">6</div>
+                    <div class="cell remove-right ">1</div>
+                    <div class="cell ">7</div>
+                </div>
+
+            </div>
+            <div class="inner-box">
+                <!-- contains 3 inner-row, one under the other ( just border config )-->
+
+                <div class="inner-row remove-right">
+                    <div class="cell remove-right remove-bottom">1</div>
+                    <div class="cell remove-right remove-bottom">3</div>
+                    <div class="cell remove-bottom">2</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right remove-bottom">3</div>
+                    <div class="cell remove-right remove-bottom">4</div>
+                    <div class="cell remove-bottom">8</div>
+                </div>
+                <div class="inner-row">
+                    <div class="cell remove-right ">1</div>
+                    <div class="cell remove-right ">9</div>
+                    <div class="cell ">5</div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
