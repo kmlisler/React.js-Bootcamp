@@ -8,5 +8,5 @@ Basic calculator with HTML & CSS & JavaScript. First week's task.
 ## Week 2 | Sudoku UI
 Basic Sudoku UI with HTML and CSS. Second week's task.
 ### Project Link :
-> <a href="https://github.com/kmlisler/React.js-Bootcamp/tree/main/Week%202%20-%20Sudoku%20UI"> Sudoku UI </a>
+> <a href="https://github.com/kmlisler/React.js-Bootcamp/tree/main/Week%202%20-%20Sudoku%20UI/"> Sudoku UI </a>
 
