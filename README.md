@@ -12,7 +12,7 @@ Basic Sudoku UI with HTML and CSS. Second week's task.
 ## Week 3 | Responsive Web Page
 Fully responsive web page with Bootstrap. Third week's task.
 ### Project Link :
-> <a href="https://kmlisler.github.io/React.js-Bootcamp//Week%203%20-%20Responsive%20Web%20Page/"> Responsive Bootstrap Web Page </a>
+> <a href="https://kmlisler.github.io/React.js-Bootcamp/Week%203%20-%20Responsive%20Web%20Page/"> Responsive Bootstrap Web Page </a>
 
 
 
