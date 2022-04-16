@@ -15,7 +15,7 @@ Fully responsive web page with Bootstrap. Third week's task.
 > <a href="https://kmlisler.github.io/React.js-Bootcamp/Week%203%20-%20Responsive%20Web%20Page/" target="_blank"> Responsive Bootstrap Web Page </a>
 
 ## Week 4 | Random Image Gallery
-Random image page that shows different images to the user on each refresh.
+Random image page made with JavaScript that displays different images to the user on each refresh.
 ### Project Link :
 > <a href="https://kmlisler.github.io/React.js-Bootcamp/Week%204%20-%20Random%20Image%20Gallery/" target="_blank"> Random Image Gallery </a>
 
