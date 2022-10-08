@@ -26,8 +26,3 @@ A temperature increase application was developed by using 4 different components
 >  <a href="https://kmlisler.github.io/ReactJS-Bootcamp-Week5/" target="_blank"> Temperature Calculator </a>
 ##### Repository of this React.js Project : <a href="https://github.com/kmlisler/ReactJS-Bootcamp-Week5" target="_blank" >Week 5 Project Repository  </a>
 
-
-
-
-
-> ....
